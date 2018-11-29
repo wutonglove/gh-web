@@ -1,6 +1,6 @@
 <template>
   <div>
-    <iframe v-show="!userinfo" id="login_if" class="iframe" src="http://localhost:8070/login.html#/login" frameborder="0"></iframe>
+    <iframe v-show="!userinfo" id="login_if" class="iframe" src="/api/xiti/login.html#/login" frameborder="0"></iframe>
     <h2 v-show="userinfo" class="succ">登录成功！</h2>
   </div>
 </template>
